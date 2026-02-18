@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ManaAttributes {
 
-    public static final double DEFAULT_MAX_MANA = 100.0;
+    public static final double DEFAULT_MAX_MANA = 0.0;
     public static final double DEFAULT_MANA_REGEN = 5.0;
 
     public static final DeferredRegister<Attribute> ATTRIBUTES = DeferredRegister.create(ForgeRegistries.ATTRIBUTES, ManaUnification.MODID);
